@@ -2,18 +2,18 @@
 
 ############################################################################################
 
-Context: This github is for the remote testing purpose
-language: PERL, SHELL SCRIPT, PHP, SQL
-Duration: 48 hr
-Tool: PUTTY, WINSCP
-Editor: Notepad++
+Context: This github is for the remote testing purpose \
+language: PERL, SHELL SCRIPT, PHP, SQL \
+Duration: 48 hr \
+Tool: PUTTY, WINSCP \
+Editor: Notepad++ \
 
 Memo:
   1. don't forget to do Edit>EOL_conversion>Unix, otherwise, strange character will be printed on the terminal
 
 Description: most of the step is missing, however, i will do my best to recall the most critical part.
 
-############################################################################################ output
+############################################################################################ File Architecture
 
 1. url
    1. http://159.223.71.86/
@@ -78,6 +78,10 @@ Description: most of the step is missing, however, i will do my best to recall t
         4. using PDO rather than mysqli to connect php and mysql is an easier way
         5. remember to close the connection after PDO command, otherwise, the server will be overloaded
         6. while doing "curl_init", you will get an infinitive loop if its URL is as same as the current file name
+    2. ISSUE
+       1. i didn't look into the logical architecture carefully and so functions are missing places
+       2. healthy.php do the most of the things including write logs
+       3. rather then the origin use of Monitor.pl, i simply use monitor.sh do to the crantab
 2. Use Crontab to set this monitor program auto run every 5 mins
     1. issue
        1. for some reason, i can't make the crontab running
@@ -86,4 +90,4 @@ Description: most of the step is missing, however, i will do my best to recall t
              1. 5 * * * * root /var/www/acom-objective3-derek/html/monitor.sh
           3. systemctl start crond
 
-############################################################################################ SUMMARY
+############################################################################################
