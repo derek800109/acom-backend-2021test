@@ -1,0 +1,21 @@
+[2021-12-19 23:22:52.358116] OK:PID:15666 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:31:39.663597] OK:PID:16010 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:31:48.253033] OK:PID:16015 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:31:52.762645] OK:PID:16020 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:33:12.998287] OK:PID:16336 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:33:15.079497] OK:PID:16341 ,response:{"mysql_status":"OK"}
+[2021-12-19 23:34:36.716034] ERROR:PID:16376 ,ERROR-Can't connect to Http://159.223.71.86/healthy.php
+[2021-12-19 23:34:38.971455] ERROR:PID:16382 ,ERROR-Can't connect to Http://159.223.71.86/healthy.php
+[2021-12-19 23:34:41.012752] ERROR:PID:16388 ,ERROR-Can't connect to Http://159.223.71.86/healthy.php
+[2021-12-19 23:58:36.969257] ERROR:PID:16745 ,ERROR-Can't connect to Http://159.223.71.86/healthy.php
+[2021-12-20 00:01:05.784557] OK:PID:16803 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:01:10.691969] OK:PID:16809 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:01:28.693429] OK:PID:16815 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:05:31.541402] OK:PID:16891 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:05:52.597603] OK:PID:16897 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:06:53.228331] OK:PID:16905 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:07:28.670369] OK:PID:16916 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:09:19.024930] OK:PID:16935 ,response:{"mysql_status":"OK"}
+[2021-12-20 00:19:03.103062] OK:PID:16976 ,response:{"mysql_status":"OK"}
+[2021-12-20 01:06:36.405882] OK:PID:17446 ,response:{"mysql_status":"OK"}
+[2021-12-20 01:24:42.975935] OK:PID:18310 ,response:{"mysql_status":"OK"}
