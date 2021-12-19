@@ -2,16 +2,12 @@
 
 ############################################################################################
 
+Author: Derek Hsu \
 Context: This github is for the remote testing purpose \
 language: PERL, SHELL SCRIPT, PHP, SQL \
 Duration: 48 hr \
 Tool: PUTTY, WINSCP \
 Editor: Notepad++ \
-
-Memo:
-  1. don't forget to do Edit>EOL_conversion>Unix, otherwise, strange character will be printed on the terminal
-
-Description: most of the step is missing, however, i will do my best to recall the most critical part.
 
 ############################################################################################ File Architecture
 
@@ -31,7 +27,7 @@ Description: most of the step is missing, however, i will do my best to recall t
 
 ############################################################################################ OBJECTIVE 1
 
-1. Use M y SQL benchmark tools to do stress test (such as sysbench and provide a report
+1. Use MySQL benchmark tools to do stress test (such as sysbench and provide a report
     1. before going to far, do yum update first
 
 ############################################################################################ OBJECTIVE 2
